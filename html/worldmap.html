@@ -31,107 +31,128 @@
     </head>
 
     <body>
-        <!--Code a optimiser ! -->
-        <div>
-            <!--Image du fond pas en background image car sinon pas bon placement-->
-            <img src="../img/V1.png" style="position: absolute; z-index: 1;">
+        <!--Image du fond pas en background image car sinon pas bon placement-->
+        <img src="../img/V1.png" style="position: absolute; z-index: 1;">
 
-            <!--div des markers
-                les a ici renvoie au javascript-->
-            <div style="position: absolute; z-index: 2; width: 100%; height: 100%;">
+        <!--div des markers
+            les a ici renvoie au javascript-->
+        <div style="position: absolute; z-index: 2; width: 100%; height: 100%;">
 
-                <a href="javascript:displayDiv('txt1');">
-                    <!--marker terre glacé avec placement-->
-                    <img src="../img/iconMap.png"  style="width: 5%; height: 6%; position: absolute; top: 2%; left: 30%;">
-                </a>
+            <a href="javascript:displayDiv('txt1');">
+                <!--marker terre glacé avec placement-->
+                <img src="../img/iconMap.png"  style="width: 5%; height: 6%; position: absolute; top: 2%; left: 30%;">
+            </a>
 
-                <a href="javascript:displayDiv('txt2');">
-                    <!--marker terre nordique avec placement-->
-                    <img src="../img/iconMap.png"  style="width: 5%; height: 6%; position: absolute; top: 2%; left: 50%;">
-                </a>
+            <a href="javascript:displayDiv('txt2');">
+                <!--marker terre nordique avec placement-->
+                <img src="../img/iconMap.png"  style="width: 5%; height: 6%; position: absolute; top: 2%; left: 50%;">
+            </a>
 
-                <a href="javascript:displayDiv('txt3');">
-                    <!--marker royaume inspi Moyen-Age avec placement-->
-                    <img src="../img/iconMap.png"  style="width: 5%; height: 6%; position: absolute; top: 2%; left: 70%;">
-                </a>
+            <a href="javascript:displayDiv('txt3');">
+                <!--marker royaume inspi Moyen-Age avec placement-->
+                <img src="../img/iconMap.png"  style="width: 5%; height: 6%; position: absolute; top: 2%; left: 70%;">
+            </a>
 
-                <a href="javascript:displayDiv('txt4');">
-                    <!--marker terre maudite avec placement-->
-                    <img src="../img/iconMap.png"  style="width: 5%; height: 6%; position: absolute; top: 2%; left: 80%;">
-                </a>
+            <a href="javascript:displayDiv('txt4');">
+                <!--marker terre maudite avec placement-->
+                <img src="../img/iconMap.png"  style="width: 5%; height: 6%; position: absolute; top: 2%; left: 80%;">
+            </a>
 
-                <a href="javascript:displayDiv('txt5');">
-                    <!--marker Empire avec placement-->
-                    <img src="../img/iconMap.png"  style="width: 5%; height: 6%; position: absolute; top: 30%; left: 80%;">
-                </a>
+            <a href="javascript:displayDiv('txt5');">
+                <!--marker Empire avec placement-->
+                <img src="../img/iconMap.png"  style="width: 5%; height: 6%; position: absolute; top: 30%; left: 80%;">
+            </a>
 
-                <a href="javascript:displayDiv('txt6');">
-                    <!--marker Arabie avec placement-->
-                    <img src="../img/iconMap.png"  style="width: 5%; height: 6%; position: absolute; top: 80%; left: 80%;">
-                </a>
+            <a href="javascript:displayDiv('txt6');">
+                <!--marker Arabie avec placement-->
+                <img src="../img/iconMap.png"  style="width: 5%; height: 6%; position: absolute; top: 80%; left: 80%;">
+            </a>
 
-                <a href="javascript:displayDiv('txt7');">
-                    <!--marker Ile avec placement-->
-                    <img src="../img/iconMap.png"  style="width: 5%; height: 6%; position: absolute; top: 50%; left: 30%;">
-                </a>
+            <a href="javascript:displayDiv('txt7');">
+                <!--marker Ile avec placement-->
+                <img src="../img/iconMap.png"  style="width: 5%; height: 6%; position: absolute; top: 50%; left: 30%;">
+            </a>
 
-            </div>
         </div>
+
+        <!--Code a optimiser ! -->
+        <!--div des texte que l'on affiche avec le javascript-->
         <div id="txt1">
+            <!--div du libelle du marker-->
             <div style="position: absolute; z-index: 3;top: 2%; left: 35%; color: red; background-color: darkgrey; padding: 0.5%;">
                 Terre Gelé
             </div>
+            <!--div du texte supplémentaire afficher en haut à gauche-->
             <div style="position: absolute; z-index: 3;top: 0%; left: 0%; color: red; background-color: darkgrey; padding-left: 1%; padding: 0.5%;">
                 fhiorgho
             </div>
         </div>
+
         <div id="txt2">
+            <!--div du libelle du marker-->
             <div style="position: absolute; z-index: 3;top: 2%; left: 55%; color: red; background-color: darkgrey; padding: 0.5%;">
                 Terre Nordique
             </div>
+            <!--div du texte supplémentaire afficher en haut à gauche-->
             <div style="position: absolute; z-index: 3;top: 0%; left: 0%; color: red; background-color: darkgrey; padding-left: 1%; padding: 0.5%;">
                 fhiorgho
             </div>
         </div>
+
         <div id="txt3">
+            <!--div du libelle du marker-->
             <div style="position: absolute; z-index: 3;top: 2%; left: 75%; color: red; background-color: darkgrey; padding: 0.5%;">
                 Royaume style Moyen Age
             </div>
+            <!--div du texte supplémentaire afficher en haut à gauche-->
             <div style="position: absolute; z-index: 3;top: 0%; left: 0%; color: red; background-color: darkgrey; padding-left: 1%; padding: 0.5%;">
                 fhiorgho
             </div>
         </div>
+
         <div id="txt4">
+            <!--div du libelle du marker-->
             <div style="position: absolute; z-index: 3;top: 2%; left: 85%; color: red; background-color: darkgrey; padding: 0.5%;">
                 Terre Maudite
             </div>
+            <!--div du texte supplémentaire afficher en haut à gauche-->
             <div style="position: absolute; z-index: 3;top: 0%; left: 0%; color: red; background-color: darkgrey; padding-left: 1%; padding: 0.5%;">
                 fhiorgho
             </div>
         </div>
+
         <div id="txt5">
+            <!--div du libelle du marker-->
             <div style="position: absolute; z-index: 3;top: 30%; left: 85%; color: red; background-color: darkgrey; padding: 0.5%;">
                 Empire
             </div>
+            <!--div du texte supplémentaire afficher en haut à gauche-->
             <div style="position: absolute; z-index: 3;top: 0%; left: 0%; color: red; background-color: darkgrey; padding-left: 1%; padding: 0.5%;">
                 fhiorgho
             </div>
         </div>
+
         <div id="txt6">
+            <!--div du libelle du marker-->
             <div style="position: absolute; z-index: 3;top: 80%; left: 85%; color: red; background-color: darkgrey; padding: 0.5%;">
                 Royaume type Arabie
             </div>
+            <!--div du texte supplémentaire afficher en haut à gauche-->
             <div style="position: absolute; z-index: 3;top: 0%; left: 0%; color: red; background-color: darkgrey; padding-left: 1%; padding: 0.5%;">
                 fhiorgho
             </div>
         </div>
+
         <div id="txt7">
+            <!--div du libelle du marker-->
             <div style="position: absolute; z-index: 3;top: 50%; left: 35%; color: red; background-color: darkgrey; padding: 0.5%;">
                 Les Iles
             </div>
+            <!--div du texte supplémentaire afficher en haut à gauche-->
             <div style="position: absolute; z-index: 3;top: 0%; left: 0%; color: red; background-color: darkgrey; padding-left: 1%; padding: 0.5%;">
                 fhiorgho
-            </div>
+            </div>  
         </div>
+
     </body>
 </html>

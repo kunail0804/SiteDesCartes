@@ -3,9 +3,10 @@ body {
 }
 
 .txt {
-    margin-left: 7px;
+    margin-left: 7px; /*permet d'empecher le texte de coler le bord de page*/
 }
 
+/*permet de mettre les image à la taille de la fenêtre*/
 img {
     width: 100%;
     height: 100%;
