@@ -11,3 +11,19 @@ img {
     width: 100%;
     height: 100%;
 }
+
+/*associé au img des marker*/
+.marker {
+    width: 5%;
+    height: 6%;
+    position: absolute;
+}
+
+/*associé au txt des div affiché par javascript*/
+.txtDiv {
+    position: absolute;
+    z-index: 3;
+    color: black;
+    background-color: white;
+    padding: 0.5%;
+}
