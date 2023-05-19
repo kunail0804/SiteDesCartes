@@ -7,6 +7,10 @@
         <title>SiteDesCartes</title>
         <link href="../css/mainStyle.css" rel="stylesheet">
 
+
+        <!--Code javascript permettant de display du text contenue dans un div
+            dans le cas ou un image est cliqué
+        -->
         <script Language="javascript">
             var list_div = new Array('txt1','txt2','txt3','txt4','txt5','txt6','txt7')
 
@@ -27,66 +31,107 @@
     </head>
 
     <body>
+        <!--Code a optimiser ! -->
         <div>
+            <!--Image du fond pas en background image car sinon pas bon placement-->
             <img src="../img/V1.png" style="position: absolute; z-index: 1;">
+
+            <!--div des markers
+                les a ici renvoie au javascript-->
             <div style="position: absolute; z-index: 2; width: 100%; height: 100%;">
+
                 <a href="javascript:displayDiv('txt1');">
-                    <div style="position: absolute; top: 2%; left: 30%; width: 100%;">
-                        <img src="../img/iconMap.png"  style="width: 5%; height: 5%;">
-                    </div>
+                    <!--marker terre glacé avec placement-->
+                    <img src="../img/iconMap.png"  style="width: 5%; height: 6%; position: absolute; top: 2%; left: 30%;">
                 </a>
+
                 <a href="javascript:displayDiv('txt2');">
-                    <div style="position: absolute; top: 2%; left: 50%; width: 100%;">
-                        <img src="../img/iconMap.png"  style="width: 5%; height: 5%;">
-                    </div>
+                    <!--marker terre nordique avec placement-->
+                    <img src="../img/iconMap.png"  style="width: 5%; height: 6%; position: absolute; top: 2%; left: 50%;">
                 </a>
+
                 <a href="javascript:displayDiv('txt3');">
-                    <div style="position: absolute; top: 2%; left: 70%; width: 100%;">
-                        <img src="../img/iconMap.png"  style="width: 5%; height: 5%;">
-                    </div>
+                    <!--marker royaume inspi Moyen-Age avec placement-->
+                    <img src="../img/iconMap.png"  style="width: 5%; height: 6%; position: absolute; top: 2%; left: 70%;">
                 </a>
+
                 <a href="javascript:displayDiv('txt4');">
-                    <div style="position: absolute; top: 2%; left: 80%; width: 100%;">
-                        <img src="../img/iconMap.png"  style="width: 5%; height: 5%;">
-                    </div>
+                    <!--marker terre maudite avec placement-->
+                    <img src="../img/iconMap.png"  style="width: 5%; height: 6%; position: absolute; top: 2%; left: 80%;">
                 </a>
+
                 <a href="javascript:displayDiv('txt5');">
-                    <div style="position: absolute; top: 30%; left: 80%; width: 100%;">
-                        <img src="../img/iconMap.png"  style="width: 5%; height: 5%;">
-                    </div>
+                    <!--marker Empire avec placement-->
+                    <img src="../img/iconMap.png"  style="width: 5%; height: 6%; position: absolute; top: 30%; left: 80%;">
                 </a>
+
                 <a href="javascript:displayDiv('txt6');">
-                    <div style="position: absolute; top: 80%; left: 80%; width: 100%;">
-                        <img src="../img/iconMap.png"  style="width: 5%; height: 5%;">
-                    </div>
+                    <!--marker Arabie avec placement-->
+                    <img src="../img/iconMap.png"  style="width: 5%; height: 6%; position: absolute; top: 80%; left: 80%;">
                 </a>
+
                 <a href="javascript:displayDiv('txt7');">
-                    <div style="position: absolute; top: 50%; left: 30%; width: 100%;">
-                        <img src="../img/iconMap.png"  style="width: 5%; height: 5%;">
-                    </div>
+                    <!--marker Ile avec placement-->
+                    <img src="../img/iconMap.png"  style="width: 5%; height: 6%; position: absolute; top: 50%; left: 30%;">
                 </a>
+
             </div>
         </div>
-        <div id="txt1" style="position: absolute; z-index: 3;top: 2%; left: 35%; color: red; background-color: darkgrey; padding: 0.5%;">
-            Terre Gelé
+        <div id="txt1">
+            <div style="position: absolute; z-index: 3;top: 2%; left: 35%; color: red; background-color: darkgrey; padding: 0.5%;">
+                Terre Gelé
+            </div>
+            <div style="position: absolute; z-index: 3;top: 0%; left: 0%; color: red; background-color: darkgrey; padding-left: 1%; padding: 0.5%;">
+                fhiorgho
+            </div>
         </div>
-        <div id="txt2" style="position: absolute; z-index: 3;top: 2%; left: 55%; color: red; background-color: darkgrey; padding: 0.5%;">
-            Terre Nordique
+        <div id="txt2">
+            <div style="position: absolute; z-index: 3;top: 2%; left: 55%; color: red; background-color: darkgrey; padding: 0.5%;">
+                Terre Nordique
+            </div>
+            <div style="position: absolute; z-index: 3;top: 0%; left: 0%; color: red; background-color: darkgrey; padding-left: 1%; padding: 0.5%;">
+                fhiorgho
+            </div>
         </div>
-        <div id="txt3" style="position: absolute; z-index: 3;top: 2%; left: 75%; color: red; background-color: darkgrey; padding: 0.5%;">
-            Royaume style Moyen Age
+        <div id="txt3">
+            <div style="position: absolute; z-index: 3;top: 2%; left: 75%; color: red; background-color: darkgrey; padding: 0.5%;">
+                Royaume style Moyen Age
+            </div>
+            <div style="position: absolute; z-index: 3;top: 0%; left: 0%; color: red; background-color: darkgrey; padding-left: 1%; padding: 0.5%;">
+                fhiorgho
+            </div>
         </div>
-        <div id="txt4" style="position: absolute; z-index: 3;top: 2%; left: 85%; color: red; background-color: darkgrey; padding: 0.5%;">
-            Terre Maudite
+        <div id="txt4">
+            <div style="position: absolute; z-index: 3;top: 2%; left: 85%; color: red; background-color: darkgrey; padding: 0.5%;">
+                Terre Maudite
+            </div>
+            <div style="position: absolute; z-index: 3;top: 0%; left: 0%; color: red; background-color: darkgrey; padding-left: 1%; padding: 0.5%;">
+                fhiorgho
+            </div>
         </div>
-        <div id="txt5" style="position: absolute; z-index: 3;top: 30%; left: 85%; color: red; background-color: darkgrey; padding: 0.5%;">
-            Empire
+        <div id="txt5">
+            <div style="position: absolute; z-index: 3;top: 30%; left: 85%; color: red; background-color: darkgrey; padding: 0.5%;">
+                Empire
+            </div>
+            <div style="position: absolute; z-index: 3;top: 0%; left: 0%; color: red; background-color: darkgrey; padding-left: 1%; padding: 0.5%;">
+                fhiorgho
+            </div>
         </div>
-        <div id="txt6" style="position: absolute; z-index: 3;top: 80%; left: 85%; color: red; background-color: darkgrey; padding: 0.5%;">
-            Royaume type Arabie
+        <div id="txt6">
+            <div style="position: absolute; z-index: 3;top: 80%; left: 85%; color: red; background-color: darkgrey; padding: 0.5%;">
+                Royaume type Arabie
+            </div>
+            <div style="position: absolute; z-index: 3;top: 0%; left: 0%; color: red; background-color: darkgrey; padding-left: 1%; padding: 0.5%;">
+                fhiorgho
+            </div>
         </div>
-        <div id="txt7" style="position: absolute; z-index: 3;top: 50%; left: 35%; color: red; background-color: darkgrey; padding: 0.5%;">
-            Les Iles
+        <div id="txt7">
+            <div style="position: absolute; z-index: 3;top: 50%; left: 35%; color: red; background-color: darkgrey; padding: 0.5%;">
+                Les Iles
+            </div>
+            <div style="position: absolute; z-index: 3;top: 0%; left: 0%; color: red; background-color: darkgrey; padding-left: 1%; padding: 0.5%;">
+                fhiorgho
+            </div>
         </div>
     </body>
 </html>
